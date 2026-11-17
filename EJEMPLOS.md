@@ -28,11 +28,3 @@ resultado queda numerado en el historial del visor derecho.
   cuantifícala y verifica que el entorno deja de solicitarse.
 - Prueba la igualdad con elementos diferentes y con el mismo elemento.
 - Usa `Ctrl/Cmd + Enter` dentro del área de fórmula para computar sin usar el botón.
-
-## Ejecución con Docker
-
-```bash
-docker compose up --build
-```
-
-La aplicación queda disponible en <http://localhost:8080>.
