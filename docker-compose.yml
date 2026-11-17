@@ -1,0 +1,8 @@
+services:
+  evaluador:
+    build:
+      context: .
+    container_name: p3-logica
+    ports:
+      - "8080:80"
+    restart: unless-stopped
